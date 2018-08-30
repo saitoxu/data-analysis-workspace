@@ -1,4 +1,4 @@
-# Signate Environment
+# Signate Workspace
 
 ## Get started
 

@@ -1,0 +1,11 @@
+version: '3'
+services:
+  jupyter:
+    image: jupyter/datascience-notebook
+    volumes:
+      - ./data:/data
+      - ./work:/home/jovyan/work
+    ports:
+      - "8888:8888"
+    tty: true
+    stdin_open: true
